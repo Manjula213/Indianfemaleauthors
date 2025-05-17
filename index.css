@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(98, 5, 164);
+    color: white;
+}
+header logo{
+    width: 100px;
+}
+header logo img{
+    width: 100px;
+    height: auto;
+}
+header college name{
+    text-align: center;
+    flex-grow: 1;
+}
+header college name{
+    font-size: 24px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(98, 5, 164);
+    color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    font-size: 14px;
+}
